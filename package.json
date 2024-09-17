@@ -1,0 +1,10 @@
+{
+  "name": "jest-delete-files-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --run-in-band --changedSince=main"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
